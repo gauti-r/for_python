@@ -1,0 +1,10 @@
+print("Input 2 numbers and give their mathematics")
+a=input(" Give two whole Numbers : ").split(" ")
+x=int(a[0])
+y=int(a[1])
+print(x,y)
+
+print(x, " + ", y, " = ", x+y)
+print(x, " - ", y, " = ", x-y)
+print(x, " x ", y, " = ", x*y)
+print(x, " / ", y, " = ", x/y)
